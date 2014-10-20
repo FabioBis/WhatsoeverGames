@@ -6,4 +6,15 @@ Titolo: Nerd's Adventures
 
 Ambientazione: Livelli strutturati in base ai vari stereotipi del classico Nerd
 
+Background: Il nerd deve affrontare la sexy cheerleader bulla con poteri speciali
+attraverso vari livelli in cui viene magicamente proiettato.
+
+Intro: 
+
+Finale: Il nerd si sveglia e scopre che la bulla in realtà è frutto della sua
+fantasia, come [SPOILER]Gargamella ed i puffi.
+
+
+-- MEMENTO --
+
 - Upgrade delle armi.

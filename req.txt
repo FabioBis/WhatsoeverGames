@@ -1,0 +1,9 @@
+-- REQUISITI --
+
+Genere: Platform Game
+
+Titolo: Nerd's Adventures
+
+
+
+- Upgrade delle armi.

@@ -4,6 +4,6 @@ Genere: Platform Game
 
 Titolo: Nerd's Adventures
 
-
+Ambientazione: Livelli strutturati in base ai vari stereotipi del classico Nerd
 
 - Upgrade delle armi.

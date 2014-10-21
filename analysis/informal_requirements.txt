@@ -31,7 +31,7 @@ Tools: Git (repo), Unity (framework), MonoDevelop (C# coding), NUnit (testing),
 
 - Uso di arma primaria e arma secondaria.
 
-- Power UP: vite extra, medikit, salto maggiorato, danni extra, gittata maggiore, ecc
+- Power UP: vite extra, medikit, salto maggiorato, danni extra, gittata maggiore, modalità "Hurk! the Nerd fury" (barra della vita +20%, danni maggiorati, salto doppio) ecc
 
 - Upgrade delle armi.
 

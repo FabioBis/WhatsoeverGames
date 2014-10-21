@@ -25,7 +25,13 @@ Tools: Git (repo), Unity (framework), MonoDevelop (C# coding), NUnit (testing),
 
 -- NOTE/IDEE --
 
+- Armi in base all'ambientazione del livello. (Es: spada laser e uso della forza nel livello StarWars, spada/scudo e arco nel livello fantasy, ecc.)
+
+-Abbigliamento in Base al livello. (Es: Tuta della federazione nel livello Startreck, Armatura nel livello Fantasy, ecc.)
+
 - Uso di arma primaria e arma secondaria.
+
+- Power UP: vite extra, medikit, salto maggiorato, danni extra, gittata maggiore, ecc
 
 - Upgrade delle armi.
 

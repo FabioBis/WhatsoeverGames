@@ -1,22 +1,32 @@
 -- REQUISITI --
 
-Genere: Platform Game
 
-Titolo: Nerd's Adventures
+Genere: Platform Game.
 
-Ambientazione: Livelli strutturati in base ai vari stereotipi del classico Nerd
+Target: PC, da valutare Mobile.
+
+Titolo: Nerd's Adventures.
+
+Ambientazione: Livelli strutturati in base ai vari stereotipi del classico Nerd.
 
 Background: Il nerd deve affrontare la sexy cheerleader bulla con poteri speciali
 attraverso vari livelli in cui viene magicamente proiettato.
 
-Intro: 
+Intro: TODO.
 
 Finale: Il nerd si sveglia e scopre che la bulla in realta' frutto della sua
 fantasia, come [SPOILER]Gargamella ed i puffi.
 
+Vincoli SW: Unity/C#.
 
--- MEMENTO --
+Tools: Git (repo), Unity (framework), MonoDevelop (C# coding), NUnit (testing),
+       NSIS (installer scripting).
+
+
+-- NOTE/IDEE --
+
+- Uso di arma primaria e arma secondaria.
 
 - Upgrade delle armi.
 
-- Puzzle da risolvere per procedere
+- Puzzle da risolvere per procedere.

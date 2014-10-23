@@ -11,7 +11,7 @@ Livelli:
 //Fantasy//
 
 01. Dungeons & Dragon; 
-sconfiggi i mostri cerca il tesoro e salva la principessa glie la sventola davanti senza dargliela perchè si rivelerà essere la tettona sotto mentite spoglie
+sconfiggi i mostri cerca il tesoro e salva la principessa (glie la sventola davanti senza dargliela perchè si rivelerà essere la tettona sotto mentite spoglie)
 
 02. Signore degli Anelli;
 

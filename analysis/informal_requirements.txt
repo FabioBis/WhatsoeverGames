@@ -22,16 +22,39 @@ Vincoli SW: Unity/C#.
 Tools: Git (repo), Unity (framework), MonoDevelop (C# coding), NUnit (testing),
        NSIS (installer scripting).
 
+Livelli:
+
+01. Dungeons & Dragon;
+02. Signore degli Anelli;
+03. Harry Potter;
+04. Star Wars;
+05. StarTrek;
+06. Battlestar Galactica;
+07. Dylan Dog;
+08. The Walking Dead;
+09. Horror B Movies;
+10. Esterno Campus;
+11. Smartphone/App;
+12. Corridoio (macchinetta caffè);
+13. Aule (Matematica);
+14. Palestra;
+15. Spogliatoi.
+
+
 
 -- NOTE/IDEE --
 
-- Armi in base all'ambientazione del livello. (Es: spada laser e uso della forza nel livello StarWars, spada/scudo e arco nel livello fantasy, ecc.)
+- Armi in base all'ambientazione del livello. (Es: spada laser e uso della forza nel
+  livello StarWars, spada/scudo e arco nel livello fantasy, ecc.).
 
--Abbigliamento in Base al livello. (Es: Tuta della federazione nel livello Startreck, Armatura nel livello Fantasy, ecc.)
+- Abbigliamento in Base al livello. (Es: Tuta della federazione nel livello Startreck,
+  Armatura nel livello Fantasy, ecc.).
 
 - Uso di arma primaria e arma secondaria.
 
-- Power UP: vite extra, medikit, salto maggiorato, danni extra, gittata maggiore, modalità "Hurk! the Nerd fury" (barra della vita +20%, danni maggiorati, salto doppio) ecc
+- Power UP: vite extra, medikit, salto maggiorato, danni extra, gittata maggiore,
+  modalità "Hurk! the Nerd fury" (barra della vita +20%, danni maggiorati,
+  salto doppio, ecc.).
 
 - Upgrade delle armi.
 

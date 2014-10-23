@@ -59,3 +59,13 @@ Livelli:
 - Upgrade delle armi.
 
 - Puzzle da risolvere per procedere.
+
+- Punteggio (raccolta oggetti, monete, bonus, powerup, armi, etc).
+
+- Classifica stile coin-up.
+
+- Salvataggio partita.
+
+- Sblocco livelli.
+
+

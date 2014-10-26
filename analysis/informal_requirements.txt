@@ -3,9 +3,9 @@
 
 Genere: Platform Game.
 
-Target: PC, da valutare Mobile.
+Piattaforma: PC, da valutare Mobile.
 
-Titolo: Nerd's Adventures.
+Titolo: Nerd Adventures.
 
 Ambientazione: Livelli strutturati in base ai vari stereotipi del classico Nerd.
 
@@ -14,13 +14,12 @@ attraverso vari livelli in cui viene magicamente proiettato.
 
 Intro: TODO.
 
-Finale: Il nerd si sveglia e scopre che la bulla in realta' frutto della sua
-fantasia, come [SPOILER]Gargamella ed i puffi.
+Finale: TODO.
 
 Vincoli SW: Unity/C#.
 
 Tools: Git (repo), Unity (framework), MonoDevelop (C# coding), NUnit (testing),
-       NSIS (installer scripting).
+       NSIS (installer scripting), Dia (UML).
 
 Livelli:
 
@@ -34,15 +33,14 @@ Livelli:
 08. The Walking Dead;
 09. Horror B Movies;
 10. Esterno Campus;
-11. Smartphone/App;
+11. Smartphone/App (stile Matrix?);
 12. Corridoio (macchinetta caffè);
 13. Aule (Matematica);
 14. Palestra;
 15. Spogliatoi.
 
 
-
--- NOTE/IDEE --
+-- REQUISITI DI GIOCO --
 
 - Armi in base all'ambientazione del livello. (Es: spada laser e uso della forza nel
   livello StarWars, spada/scudo e arco nel livello fantasy, ecc.).
@@ -58,14 +56,21 @@ Livelli:
 
 - Upgrade delle armi.
 
-- Puzzle da risolvere per procedere.
-
 - Punteggio (raccolta oggetti, monete, bonus, powerup, armi, etc).
 
-- Classifica stile coin-up.
+- Classifica stile coin-up (al Game Over si inserisce nome e punteggio).
 
-- Salvataggio partita.
+- Salvataggio partita (salva livello corrente -non posizione esatta-, vite, etc).
 
-- Sblocco livelli.
+- Sblocco livelli (consente di iniziare una nuova partita dai livelli già giocati).
+
+- Messa in pausa durante il gioco.
+
+
+-- NOTE/IDEE --
+
+- Puzzle da risolvere per procedere.
+
+
 
 

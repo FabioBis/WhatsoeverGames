@@ -1,0 +1,72 @@
+-- Features list --
+
+-(NA-F01): The game shall allow the player to control the main character (a nerd) in
+ a multi level side-scrolling platform game.
+
+-(NA-F02): The game shall provide a score system - each collectables in the game give
+ the player a viariable amount of points.
+
+-(NA-F03): The game is composed of about 15 levels devided into thematic groups, at the
+ end of each group the player is involved in a boss fight.
+
+-(NA-F04): Each level shall be set in a stereotypical nerd environment. Weapons,
+ power-ups, outfits, opponents and so on shall change accordling.
+
+-(NA-F05): The character shall use a primary weapon and a secondary weapon.
+
+-(NA-F06): The character shall posses a health meter which can be reduced by taking
+ damage or increased by collecting health units.
+
+-(NA-F07): The character shall collects power-ups, weapons, health units, extra lifes
+ and other memorabilia (from which gain score points).
+
+-(NA-F08): The player shall invoke the Main Menu, also while playing.
+
+-(NA-F09): The player shall pause the game.
+
+-(NA-F10): The player shall save the game - current level, lifes, score and weapons.
+
+-(NA-F11): The player shall load a saved game.
+
+-(NA-F12): The first time a player complete a level, that level in unlocked and he
+ can now start the game from that level, or play it alone.
+
+-(NA-F13): The Game is Over if the player defeat the last boss or if the character
+ die and he has no more lifes. In both case the game ask the player name and save
+ his score on the Ranking Table in a fashion old coin-up style.
+
+-(NA-F14): The player can take a look at the Ranking Table using the Main Menu.
+
+
+
+-- Levels list --
+
+-(NA-L01): Dungeons & Dragon.
+
+-(NA-L02): Lord of the Rings.
+
+-(NA-L03): Harry Potter.
+
+-(NA-L04): Star Wars.
+
+-(NA-L05): StarTrek.
+
+-(NA-L06): Battlestar Galactica.
+
+-(NA-L07): Dylan Dog.
+
+-(NA-L08): The Walking Dead.
+
+-(NA-L09): Horror B Movies.
+
+-(NA-L10): College Campus.
+
+-(NA-L11): Smartphone/App (Matrix style?).
+
+-(NA-L12): College corridors (to the coffee machine).
+
+-(NA-L13): Classrooms (Math).
+
+-(NA-L14): Gym.
+
+-(NA-L15): The locker room.

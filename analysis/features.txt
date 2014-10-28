@@ -37,6 +37,19 @@
 
 -(NA-F14): The player can take a look at the Ranking Table using the Main Menu.
 
+-(NA-F15): The player shall start a new game, also while playing a game (which will
+ end the current one).
+
+-(NA-F16): The player can read Game credits.
+
+-(NA-F17): The player can read the Rank.
+
+-(NA-F18): The player can exit the game.
+
+-(NA-F19): The player can quit the application.
+
+-(NA-F20): The player can resume the game.
+
 
 
 -- Levels list --

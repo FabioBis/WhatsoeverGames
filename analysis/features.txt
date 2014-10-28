@@ -50,6 +50,8 @@
 
 -(NA-F20): The player can resume the game.
 
+-(NA-F21): The player can manage Options.
+
 
 
 -- Levels list --

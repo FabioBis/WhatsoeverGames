@@ -1,0 +1,3 @@
+-- Use Cases list --
+
+-(NA-UC01): The player interact with main menu.

@@ -1,0 +1,31 @@
+
+- Validare feature e Use Case.
+
+- Verificare la necessita' di feature/Use Case relativi ad altri
+  ambiti (character vs environment, opponnet vs character, ecc.)
+  rispetto a quelli attuali.
+
+- Analisi dei Sistemi: suddividere feature e Use Case individuati in
+  sistemi logicamente affini al fine di scomporre l'analisi in parti
+  piu' piccole
+
+- Stesura del Class Diagram di Analisi: a partire dagli Use Case, per
+  ciascun sistema, individuare ogni classe e componente necessari
+  all'implementazione. Questa fase non deve tener conto di architetture,
+  framework, linguaggi, ecc. L'output finale sara' l'insieme delle classi
+  (attributi, metodi, relazioni, ecc.) come se dovessimo implementarle
+  totalmente da zero.
+
+- Analisi dei domini: valutazione delle risorse esterne gia' disponibili.
+  In questa fase occorre capire quali funzionalita' potranno esserci utili
+  nella fase di implementazione. Quali librerie sono disponibili in C#?
+  Che classi offrono per i nostri scopi? Che funzionalita' offre Unity? ecc.
+  L'output di questa fase e' una lista di classi, metodi, ecc. utili
+  all'implementazione dei casi d'uso individuati.
+
+- Stesura del Class Diagram di Progetto: dal Class Diagram di Analisi e dalla
+  lista ottenuta dalll'Analisi dei Domini si produce il Class Diagram di
+  Progetto. Ovvero il vero e proprio progetto del software che individuera'
+  tutte le classi ed i metodi da implementare. In questa fase e' necessario
+  capire ed evidenziare quali classi e metodi esterni usare e come integrarli
+  nella parte implementata da noi.

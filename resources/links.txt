@@ -1,3 +1,42 @@
 ## Analysis
 
 http://greendoorgames.com/
+[A developper blog]
+
+http://www.html.it/guide/guida-uml/
+[UML tutorial - ITA]
+
+http://en.wikipedia.org/wiki/Software_design_pattern
+[Design Pattern]
+
+
+## Programming and Tools
+
+http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/
+[Unity tips]
+
+http://msdn.microsoft.com/it-it/library/67ef8sbd.aspx
+[C# tutorial - ITA]
+
+# Installer
+
+http://nsis.sourceforge.net/Main_Page
+[Installer scripting language]
+
+# Testing
+
+http://it.wikipedia.org/wiki/Unit_testing
+[Unit Tests - ITA]
+
+http://www.extremeprogramming.org/rules/unittests.html
+[Unit tests and agile methods]
+
+http://www.nunit.org/
+[Testing scripting framework]
+
+http://www.rhyous.com/2012/04/30/beginning-unit-testing-tutorial-in-c-with-nunit/
+[NUnit tutorial]
+
+http://www.codeproject.com/Articles/34161/Setup-a-Test-Project-with-NUnit-and-MonoDevelop
+[NUnit with MonoDevelop]
+

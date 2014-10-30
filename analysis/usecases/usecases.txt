@@ -1,3 +1,4 @@
 -- Use Cases list --
 
 -(NA-UC01): The player interact with main menu.
+-(NA-UC02): The player interact with the game engine.

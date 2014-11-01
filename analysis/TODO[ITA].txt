@@ -2,7 +2,7 @@
 - Validare feature e Use Case.
 
 - Verificare la necessita' di feature/Use Case relativi ad altri
-  ambiti (character vs environment, opponnet vs character, ecc.)
+  ambiti (character vs environment, opponent vs character, ecc.)
   rispetto a quelli attuali.
 
 - Analisi dei Sistemi: suddividere feature e Use Case individuati in

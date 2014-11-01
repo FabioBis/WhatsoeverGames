@@ -52,6 +52,9 @@
 
 -(NA-F21): The player can manage Options.
 
+-(NA-F22): The game shall provide multiple types of enemies each with a common/unique
+ UI to provide an interesting player experience.
+
 
 
 -- Levels list --

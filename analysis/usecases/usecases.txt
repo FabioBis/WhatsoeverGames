@@ -2,3 +2,19 @@
 
 -(NA-UC01): The player interact with main menu.
 -(NA-UC02): The player interact with the game engine.
+-(NA-UC03): Start a new game.
+-(NA-UC04): Load a game.
+-(NA-UC05): Show credits.
+-(NA-UC06): Show the rank.
+-(NA-UC07): Manages options.
+-(NA-UC08): Resume game.
+-(NA-UC09): Exit from the game.
+-(NA-UC10): Quit the application.
+-(NA-UC11): Player controls character.
+-(NA-UC12): Collects powerups.
+-(NA-UC13): Selects pause.
+-(NA-UC14): Interacts with Game Over screen.
+-(NA-UC15): System handles NPC, levels and scene.
+-(NA-UC16): Characters fire weapons.
+-(NA-UC17): System handles player and game status.
+ 

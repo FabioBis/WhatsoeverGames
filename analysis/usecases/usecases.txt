@@ -11,10 +11,11 @@
 -(NA-UC09): Exit from the game.
 -(NA-UC10): Quit the application.
 -(NA-UC11): Player controls character.
--(NA-UC12): Collects powerups.
--(NA-UC13): Selects pause.
+-(NA-UC12): Player collects powerups.
+-(NA-UC13): Pause the game.
 -(NA-UC14): Interacts with Game Over screen.
--(NA-UC15): System handles NPC, levels and scene.
+-(NA-UC15): System handles levels and scene.
 -(NA-UC16): Characters fire weapons.
 -(NA-UC17): System handles player and game status.
+-(NA-UC18): System handles NPCs.
  

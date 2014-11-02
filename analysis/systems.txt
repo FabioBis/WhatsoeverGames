@@ -1,0 +1,36 @@
+-- Game Engine System --
+
+-(NA-UC02): The player interact with the game engine.
+
+
+-- Weapon System --
+
+-(NA-UC12): Player collects powerups;
+-(NA-UC16): Characters fire weapons.
+
+
+-- Interactive Menu System --
+
+-(NA-UC01): The player interact with main menu;
+-(NA-UC03): Start a new game;
+-(NA-UC04): Load a game;
+-(NA-UC05): Show credits;
+-(NA-UC06): Show the rank;
+-(NA-UC07): Manages options;
+-(NA-UC08): Resume game;
+-(NA-UC09): Exit from the game;
+-(NA-UC10): Quit the application;
+-(NA-UC14): Interacts with Game Over screen.
+
+
+-- Status Update System --
+
+-(NA-UC13): Pause the game;
+-(NA-UC17): System handles player and game status;
+-(NA-UC15): System handles levels and scene.
+
+
+-- Character Control System --
+
+-(NA-UC11): Player controls character;
+-(NA-UC15): System handles NPC.

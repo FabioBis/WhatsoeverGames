@@ -21,6 +21,9 @@ http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/
 http://msdn.microsoft.com/it-it/library/67ef8sbd.aspx
 [C# tutorial - ITA]
 
+https://developers.facebook.com/docs/unity
+[Facebook Unity SDK]
+
 # Installer
 
 http://nsis.sourceforge.net/Main_Page

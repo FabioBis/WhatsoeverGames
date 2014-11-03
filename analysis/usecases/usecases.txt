@@ -18,4 +18,4 @@
 -(NA-UC16): Characters fire weapons.
 -(NA-UC17): System handles player and game status.
 -(NA-UC18): System handles NPCs.
- 
+-(NA-UC19): The player interact with pause menu.

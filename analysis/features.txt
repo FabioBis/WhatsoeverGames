@@ -17,7 +17,7 @@
 -(NA-F06): The character shall posses a health meter which can be reduced by taking
  damage or increased by collecting health units.
 
--(NA-F07): The character shall collects power-ups, weapons, health units, extra lifes
+-(NA-F07): The character shall collects power-ups, weapons, health units, extra lives
  and other memorabilia (from which gain score points).
 
 -(NA-F08): The player shall invoke the Main Menu, also while playing.

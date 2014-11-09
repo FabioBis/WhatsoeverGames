@@ -18,16 +18,21 @@ http://gameprogrammingpatterns.com/
 http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/
 [Unity tips]
 
+http://www.richardfine.co.uk/2012/10/unity3d-monobehaviour-lifecycle/
+[Unity Game Loop]
+
 http://msdn.microsoft.com/it-it/library/67ef8sbd.aspx
 [C# tutorial - ITA]
 
 https://developers.facebook.com/docs/unity
 [Facebook Unity SDK]
 
+
 # Installer
 
 http://nsis.sourceforge.net/Main_Page
 [Installer scripting language]
+
 
 # Testing
 
@@ -46,3 +51,17 @@ http://www.rhyous.com/2012/04/30/beginning-unit-testing-tutorial-in-c-with-nunit
 http://www.codeproject.com/Articles/34161/Setup-a-Test-Project-with-NUnit-and-MonoDevelop
 [NUnit with MonoDevelop]
 
+
+# Game Development
+
+http://gafferongames.com/
+[Glenn Fiedler's Blog]
+
+http://www.koonsolo.com
+[Indi Game Studio]
+
+http://www.gamedev.net/page/index.html
+[Developers community]
+
+http://www.gamesindustry.biz/
+[Developers network]

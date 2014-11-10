@@ -27,6 +27,18 @@ http://msdn.microsoft.com/it-it/library/67ef8sbd.aspx
 https://developers.facebook.com/docs/unity
 [Facebook Unity SDK]
 
+## Level Design and Editor
+
+http://www.mapeditor.org/
+http://www.seanba.com/introtiled2unity.html
+[Tiled Based Map Editor]
+
+http://jessefreeman.com/starter-kits/super-resident-raver-starter-kit/
+[2D Platform Starter Kit for Unity]
+
+http://devmag.org.za/2011/07/04/how-to-design-levels-for-a-platformer/
+http://devmag.org.za/2011/01/18/11-tips-for-making-a-fun-platformer/
+[How-to and Tips for Platform Level Designer]
 
 # Installer
 

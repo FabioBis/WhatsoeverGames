@@ -1,0 +1,33 @@
+New project Unit Packages Info
+
+Character Controller :		Prefabs for inserting ready-made character controls for first or third person games. 
+				Unless you're making an abstract game or puzzler this will probably be useful.
+
+Light Cookies : 		A set of image masks used for lighting effects; 
+				certainly not essential for a beginner project, but useful.
+
+Light Flares : 			A set of textures for doing lens flare, sun glow etc. 
+				Might be needed in some environments, not in others.
+
+Particles : 			Contains a few example particles to get you started, handy in the majority of situations.
+
+Physic Materials Scripts : 	Contains some example physical materials. 
+				These are used in games that use the physics engine.
+
+Skyboxes : 			Again, just some examples for you to use. Skyboxes are the backdrops for your game.
+
+Standard Assets (Mobile) : 	Pretty self-explanatory, but if you're doing a mobile game you might find them handy. 
+				If it's going to be just web/standalone, you won't be needing it.
+
+Terrain Assets : 		Textures and such for the Terrain engine. 
+				If your game doesn't use Unity's heightmap terrain system, you can leave it out. 
+				Otherwise it's quite useful.
+
+Toon Shading : 			Imports the cell-shader effect if you want to apply a cartoony look to your game. 
+				Worth trying if you're curious
+				(you can always delete any of these folders if you decide you don't need them anymore).
+
+Tree Creator : 			Unity3's new tree creator, although I can't tell you much more as I haven't used it yet.
+				But if your environment has trees, you might like to have it.
+
+Water (Basic) : 		Includes a water effect, should your game require one.

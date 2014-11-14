@@ -3,20 +3,25 @@
  <tileset firstgid="1" source="desert.tsx"/>
  <layer name="Ground" width="100" height="40">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+2azVJDMQiFo12pK/8W1eqMVRet+v6v5+20zCCSSwikSTssvmXnEk5yIKTrlNI6CIIgCJRsg6F4DYIgCAIFFxOXA8QR7LmauB4gjiD08AD8BbMIPboB+cOsDPqEHjZuJ+4OPDLaUH0kbXrosZx4mngeIJ+ttMnpsxI06aHHW9rPaN4HyOEOrgZ41IPc2bkZTI9N2s9ovjrkluMl8T5Tkj+NNqAJ+Ben87nVD66+lvKQ/voNcK+MIbcnqO6czhC/R69mxaOuSHrkcl6Td2sM3Pfob2mvpsGqpUddkfodTa9Tu3doXdfobjnf3j7rXVckbSzxtupJRtKjJdyetfhTq57k1PRo1ZuOAugx53cckje3qjfS/pFi6KGXpk+B9Wn7Gjj/uRlBq/OUq5WlcZR8s+YOM6d5rtbQ7yyQHrW1SeolavuMVnGUfNPq4VTzXK3helu4o4w0v+iNZY9p9tmcx4ygh9YnPGtBzxknnqVgPb4PMUm0ilnrE579XO8ZJ9VE89850M1bF61PeNafljPOmv24LeCT0eXc3jA0WPsw6rlYjxI/hj2Edcl5HNXpWLUB6kAL36VrkOb0Ws+lfl3qx5v0/6xQqA9714Zc3n+EuOZilODWMDcv1npurR74rOSgPuxZG5ZC3j+E2HIxSnjPwCS9R54H5rTgct+zJo+gxzHvDdCXghanmvuWehzr3oDPxrlpsYPe12vz1PreALUb+5T13obPtPfM1/omAPvb8larXZemL+Vqd80sAecJ96rWdVOkPjj3Pcif15uU5nzhOtASfI48395aADrt9PwFr/U2Y4A+AAA=
+   H4sIAAAAAAAAC+2abU9VMQzHh/gsIijiVVHjVUIA/f5fzy3cJrVp17Xrzjmavfi9ILl76r9rux72KaX9ZDKZTCZG7iab4utkMqnyNPPswHPHOMuYic5p5s2Bk0b7Fi1eozE9umB/kBgxd21Oadwo3zvKPCJ2tWhySsZgXaznpetznDTOK/lMbU46X23c2SA9XmReCnaV1vXakLOftG4LrTZpXYPOVxu3hh6PM7tAG3JnoHOVNT9knlTmgd9we+O4VOaTznop7AX/FuIL5jhAD1gbI51X2qdHD7ruLuk29Pgmd76Ws3I+g9cH+2GuOvSB+Txaame0nNkyv3WeXmp6nGfeHnjPaEP10bTp0cPLx8ynzOeF1/Ui3WEK1kbS50rRZA09vqeHHs2PDdi6wOWAiHwg3Z1XG9PjNj30aO4DbEVt1vp7zJfEx5kW+1m0AU0gfnE6r6GHBS5f1mzW+nuOi/R3vAHeGfcs+QTVndMZ9h9Rq/XC5RUakyXAZpoeks09dvf60EVlPTqW1moWerWMyCtavWOpday+0+pDNd177rcWZ2mfUes71vKK5AOa3Wra9OSFUTXJSD2gbj8T/l4Szmd74pOlJtmKHlC374S/reA8KdVTa+a/SD1acmbLWyc632B7l/oE58JvyZ7/1tDL8v6F81jfy3D/pR6B5z613F885ijpbwfPmp43TE1zKddwdxvO681NrfWot76k8+MxVKtaLWtZszeGU82lXMPdbfCvLfUvvL4Q9X7o8THLPmoxZgt6WONEZC5Ys8eJeylYj1+HPWmM2rM1TkT0lYC1e5xUk70B0C1aF2uciIpPhVHvCa8/3jVwzejyr3zDGEFvHUZjLtajJR6DD2FdpBhHdVoqN0AeGBF36RmstbYWc2u1vaYLvSsUGoejc8ONoMFvZV+1PWpwZ2ipsVtjrlcPfFckaByOzg24Nwm5GPip7E3ao0Z0D0zTO7JeGUW5CyXO4N4k9Y01c/IW9Fjy3VDuQokzvb3JLRKlx1LvhnI3Sn74X+s6+l732mn0uwHyNc7Vve82rncfRe//q4B/93yrtZ7LUpdyNZOnl0B797iP1/uOsNTB0npgv6hvUpb7RWuiUeB7FPntbQSgU9HzD6JIq5GAPgAA
   </data>
  </layer>
- <objectgroup name="Livello di Oggetti 1">
+ <layer name="Brick" width="100" height="40" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2abU9VMQzHh/gsIijiVVHjVUIA/f5fzy3cJrVp17Xrzjmavfi9ILl76r9rux72KaX9ZDKZTCZG7iab4utkMqnyNPPswHPHOMuYic5p5s2Bk0b7Fi1eozE9umB/kBgxd21Oadwo3zvKPCJ2tWhySsZgXaznpetznDTOK/lMbU46X23c2SA9XmReCnaV1vXakLOftG4LrTZpXYPOVxu3hh6PM7tAG3JnoHOVNT9knlTmgd9we+O4VOaTznop7AX/FuIL5jhAD1gbI51X2qdHD7ruLuk29Pgmd76Ws3I+g9cH+2GuOvSB+Txaame0nNkyv3WeXmp6nGfeHnjPaEP10bTp0cPLx8ynzOeF1/Ui3WEK1kbS50rRZA09vqeHHs2PDdi6wOWAiHwg3Z1XG9PjNj30aO4DbEVt1vp7zJfEx5kW+1m0AU0gfnE6r6GHBS5f1mzW+nuOi/R3vAHeGfcs+QTVndMZ9h9Rq/XC5RUakyXAZpoeks09dvf60EVlPTqW1moWerWMyCtavWOpday+0+pDNd177rcWZ2mfUes71vKK5AOa3Wra9OSFUTXJSD2gbj8T/l4Szmd74pOlJtmKHlC374S/reA8KdVTa+a/SD1acmbLWyc632B7l/oE58JvyZ7/1tDL8v6F81jfy3D/pR6B5z613F885ijpbwfPmp43TE1zKddwdxvO681NrfWot76k8+MxVKtaLWtZszeGU82lXMPdbfCvLfUvvL4Q9X7o8THLPmoxZgt6WONEZC5Ys8eJeylYj1+HPWmM2rM1TkT0lYC1e5xUk70B0C1aF2uciIpPhVHvCa8/3jVwzejyr3zDGEFvHUZjLtajJR6DD2FdpBhHdVoqN0AeGBF36RmstbYWc2u1vaYLvSsUGoejc8ONoMFvZV+1PWpwZ2ipsVtjrlcPfFckaByOzg24Nwm5GPip7E3ao0Z0D0zTO7JeGUW5CyXO4N4k9Y01c/IW9Fjy3VDuQokzvb3JLRKlx1LvhnI3Sn74X+s6+l732mn0uwHyNc7Vve82rncfRe//q4B/93yrtZ7LUpdyNZOnl0B797iP1/uOsNTB0npgv6hvUpb7RWuiUeB7FPntbQSgU9HzD6JIq5GAPgAA
+  </data>
+ </layer>
+ <objectgroup color="#a40d00" draworder="index" name="Livello di Oggetti 1" visible="0">
   <object x="0" y="1008">
    <polygon points="0,0 48,0 48,224 560,224 560,272 0,272"/>
   </object>
-  <object x="496" y="1136">
+  <object name="Brick 1" x="496" y="1136">
    <polygon points="0,0 384,0 384,56 384,64 0,64"/>
   </object>
   <object x="0" y="784">
    <polygon points="0,0 48,0 48,128 368,128 368,160 432,160 432,192 464,192 464,224 656,224 656,288 400,288 400,256 368,256 368,224 304,224 304,192 0,192"/>
   </object>
-  <object x="784" y="1008">
+  <object name="Brick 2" x="784" y="1008">
    <polygon points="0,0 384,0 384,64 0,64"/>
   </object>
   <object x="1072" y="880">
@@ -28,5 +33,14 @@
   <object x="1840" y="1280">
    <polygon points="0,0 0,-48 96,-48 96,-80 192,-80 192,-48 832,-48 832,-80 1088,-80 1088,-48 1280,-48 1280,-16 1344,-16 1344,-112 1280,-112 1280,-368 1248,-368 1248,-400 1216,-400 1216,-432 1152,-432 1152,-496 1280,-496 1280,-464 1312,-464 1312,-1008 1360,-1008 1360,0"/>
   </object>
+  <object x="16" y="592">
+   <polygon points="0,0 64,0 64,32 544,32 544,160 928,160 928,224 448,224 448,192 384,192 384,160 0,160"/>
+  </object>
+  <object x="1232" y="528">
+   <polygon points="0,0 320,0 320,64 0,64"/>
+  </object>
  </objectgroup>
+ <imagelayer name="Image Layer 1" y="8" visible="0">
+  <image source="C:/Users/utente/Pictures/4nerds-b-n.jpg"/>
+ </imagelayer>
 </map>

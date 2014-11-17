@@ -35,6 +35,11 @@ public class CameraFollow : MonoBehaviour
 	}
 
 
+    // FB: we should use LateUpdate/0 instead.
+    // Unity Documentation: LateUpdate is called after all Update functions
+    // have been called. This is useful to order script execution. For example
+    // a follow camera should always be implemented in LateUpdate because it
+    // tracks objects that might have moved inside Update.
 	void FixedUpdate ()
 	{
 		TrackPlayer();

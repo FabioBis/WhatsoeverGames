@@ -11,7 +11,15 @@ Livelli:
 //Fantasy//
 
 01. Dungeons & Dragon; 
-sconfiggi i mostri cerca il tesoro e salva la principessa (glie la sventola davanti senza dargliela perchè si rivelerà essere la tettona sotto mentite spoglie)
+	sconfiggi i mostri cerca il tesoro e salva la principessa (glie la sventola davanti senza dargliela 	perchè si rivelerà essere la tettona sotto mentite spoglie)
+		
+	Ambientazione: 
+		1a fase scrolling tetra foresta 
+		2a fase scrolling dungeon/sotterranei castello
+		3a fase scrolling castello
+		4a fase schermata fissa torre con principessa alla finestra e boss (drago nero?)
+
+(NOTA: livello troppo lungo? eliminare foresta e lasciare solo dungeon/castello con torre finale?)
 
 02. Signore degli Anelli;
 

@@ -20,6 +20,9 @@ http://www.gamesindustry.biz/
 
 # Level Design and Editors
 
+http://www.vgmaps.com/
+[a lot of 2d maps from various games]
+
 http://www.mapeditor.org/
 http://www.seanba.com/introtiled2unity.html
 [Tiled Based Map Editor]

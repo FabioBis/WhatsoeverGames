@@ -1,0 +1,108 @@
+### LEVEL 01 - DUNGEONS AND DRAGONS STYLE ###
+
+
+##MOB##
+
+//dark forest//
+- kobold
+
+- bugbear
+
+- ogre
+
+//dungeon castle//
+- Skeleton 
+	swordsman
+	archer
+- bat
+- ghoul
+- jelly
+	green
+	purple
+	black
+
+//castle inside//
+
+- gargoyle
+- gholem
+- animated armor
+- fire elemental
+- mimic
+
+//castle tower//
+- red dragon
+- various mob?
+
+
+
+#WEAPONS#
+- player
+	sword and shield
+	bow and arrows
+
+- kobold
+	knife
+
+- bugbear
+	waraxe
+
+- ogre
+	greatclub or maul
+
+- skeleton
+	sword and shield
+	bow and arrow
+
+- bat
+	bite
+
+- ghoul
+	claw
+
+- jelly
+	touch
+
+- gargoyle
+	claw
+
+- gholem
+	fist
+
+- animated armor
+	spear
+
+- fire elemental
+	touch (fire^^)
+- mimic
+	slam
+	adhesive slime
+
+- red dragon
+	bite
+	claw
+	cone of fire
+
+#POWER-UP#
+- iron chest (1+, random)
+	life
+	tower shield (less damage)
+	health potion (restore xx% of lifebar) (little chance to drop on killing mob)
+	money (chance to drop on killing mob)
+	xx arrow
+- silver chest
+	bow and xx(random 10-50) arrows
+
+- golden chest
+	ice sword (more damage vs normal mob and double vs red dragon)
+
+#TRICK#
+
+- secret door 
+	no collision wall, example: when a player exceed a fakewall this become a door
+
+- trap door
+	surface wobble for 1 second then breakdown and player fall in to a pit whit spears or other tricks
+- bear trap
+	only in the forest, hidden by a heap leaves
+- possibility to randomly chest both a mimic
+- ?????money scattered on map or only drop on mob and chests?????

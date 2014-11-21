@@ -1,4 +1,3 @@
-NerdsAdventures
+WhatsoeverGame
 ===============
 
-A platform game.

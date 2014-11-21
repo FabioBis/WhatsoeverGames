@@ -5,7 +5,6 @@
 
 //Shire//
 - Hobbits
-
 - Bandits
 
 
@@ -17,7 +16,7 @@
 //Mountain vertical level//
 
 -Orc
--Small wyvern(similar to bat)
+-Small wyvern (similar to bat)
 -Ghoul
 
 //Top of the mountain ( player can fall on left and right border)//
@@ -26,8 +25,8 @@
 
 #WEAPONS#
 - player
-	sword and shield
-	bow and arrows
+	longsword (like glamdring)
+	staff
 
 - Hobbits
 	knife
@@ -47,8 +46,7 @@
 - Wraith
 	touch
 
--Balrog
-
+- Balrog
 	Fire sword(vertical swing)
 	Fire Sword(Fire wave)
 	Wing Buffet(wind Knockback, can be blocked with shield)
@@ -56,23 +54,17 @@
 
 
 #POWER-UP#
-- iron chest (1+, random)
+- chest (1+, random)
 	life
-	Elven Sword (more damage)
 	health potion (restore xx% of lifebar) (little chance to drop on killing mob)
 	money (chance to drop on killing mob)
-	xx arrow
-- silver chest
-	bow and xx(random 10-50) arrows
-	Elven Armor (less damage from enemies)
-
-- golden chest
+	gandalf hat(less damage from enemies)
 	Staff of Power( can be used every 30 seconds to stun the balrog for 3 seconds, interrupting his abilities
 
 #TRICK#
 
--Saruman's echoes
-	With a loud voice saruman's attempt to control the players. Controls movement are inverted. left is right,down is up,attack is block(only present in the mountain level).
+- Saruman's echoes
+	With a loud voice saruman's attempt to control the players. Controls movement are inverted. left is right,down is up,attack is block (only present in the mountain level).
 
 - riddle door
 	The player must answer a riddle to open this door, contains the golden chest in dwarf fortress

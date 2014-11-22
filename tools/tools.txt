@@ -1,0 +1,11 @@
+### Frameworks ###
+
+## UnityEngine3D ##
+
+  - Version: 4.5.*
+  - Site: www.unity3d.com
+  - Extensions: NONE
+
+  Extensions to be evaluated:
+  - Rewired (advanced input system)
+  - cInput2 (advanced input system)

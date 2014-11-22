@@ -17,6 +17,9 @@ http://www.gamedev.net/page/index.html
 http://www.gamesindustry.biz/
 [Developers network]
 
+http://wulverblade.com/blog/
+[Game Development blog]
+
 
 # Level Design and Editors
 
@@ -67,6 +70,9 @@ http://msdn.microsoft.com/it-it/library/67ef8sbd.aspx
 
 https://developers.facebook.com/docs/unity
 [Facebook Unity SDK]
+
+http://wiki.unity3d.com/index.php/Main_Page
+[Unity Wiki]
 
 
 # Installer

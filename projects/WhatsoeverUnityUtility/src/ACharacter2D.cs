@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WhatsoeverUnityUtility
+namespace Whatsoever2DUnityUtility
 {
     /// <summary>
     /// This class represents an abstraction of what a character is within
     /// the Unity environment. To use this class correctly each Unity script
     /// attached to a character (that implements it) must extends this class.
     /// </summary>
-    abstract public class ACharacter2D
+    abstract public class APlatformerChar
     {
         // The current character healt.
         public int Healt;
@@ -22,7 +22,7 @@ namespace WhatsoeverUnityUtility
         public float JumpForce;
 
         // The character current state (Standing, Jumping, ...).
-        protected ACharacter2DState state;
+        protected APlatformerCharState state;
         // The character control manager (Move, Jump, ...).
         protected AControlManager controlManager;
 

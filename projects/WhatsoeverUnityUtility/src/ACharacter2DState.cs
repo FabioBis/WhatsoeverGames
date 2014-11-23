@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace WhatsoeverUnityUtility
+namespace Whatsoever2DUnityUtility
 {
     /// <summary>
-    /// This class represents an abstraction of what state a character could
+    /// This class represents an abstraction of which state a character could
     /// be (state machine). See State Pattern.
+    /// Each public class method implements a character action, those methods
+    /// require to pass as parameters the Rigidbody2D of the caller (character).
     /// </summary>
-    abstract public class ACharacter2DState
+    abstract public class APlatformerCharState
     {
         // Is the character facing right?
         private bool facingRight;
@@ -21,27 +23,24 @@ namespace WhatsoeverUnityUtility
         // The force applied to character while jumping (deceleration).
         private float jumpForce;
 
-        // The character rigidbody.
-        private Rigidbody2D rigidbody;
-
         /// <summary>
         /// Allows the character to move horizontally.
         /// </summary>
-        /// <param name="horizontal">
+        /// <param name="hspace">
         /// The amount of movement for the current frame.
         /// </param>
-        public void Move(float horizontal)
+        public void Move(float hspace, Rigidbody2D rigidbody)
         {
             if (rigidbody == null)
             {
                 throw new NullReferenceException();
             }
-            if (horizontal * rigidbody.velocity.x < maxSpeed)
+            if (hspace * rigidbody.velocity.x < maxSpeed)
             {
                 // The character is changing direction (horizontal has a
                 // different sign to velocity.x) or hasn't reached maxSpeed.
                 // Add a force to the player.
-                rigidbody.AddForce(Vector2.right * horizontal * moveForce);
+                rigidbody.AddForce(Vector2.right * hspace * moveForce);
             }
             if (Mathf.Abs(rigidbody.velocity.x) > maxSpeed)
             {
@@ -52,18 +51,18 @@ namespace WhatsoeverUnityUtility
                         rigidbody.velocity.y
                         );
             }
-            if ((horizontal > 0 && !facingRight) ||
-                (horizontal < 0 && facingRight))
+            if ((hspace > 0 && !facingRight) ||
+                (hspace < 0 && facingRight))
             {
                 // The character changed direction.
-                flip();
+                flip(rigidbody);
             }
         }
 
         /// <summary>
         /// Allows the character to jump.
         /// </summary>
-        public void Jump()
+        public void Jump(Rigidbody2D rigidbody)
         {
             if (rigidbody == null)
             {
@@ -77,7 +76,7 @@ namespace WhatsoeverUnityUtility
         /// Allows the character to fire with a given weapon.
         /// </summary>
         /// <param name="weapon">The weapon to be used.</param>
-        public void Fire(IWeapon weapon)
+        public void Fire(AWeapon weapon)
         {
             // TODO
         }
@@ -85,23 +84,31 @@ namespace WhatsoeverUnityUtility
         /// <summary>
         /// Allows the character to duck.
         /// </summary>
-        public void Duck()
-        { 
+        public void Duck(Rigidbody2D rigidbody)
+        {
+            if (rigidbody == null)
+            {
+                throw new NullReferenceException();
+            }
             // TODO
         }
 
         /// <summary>
         /// Allows the character to climb walls, ladders and so on.
         /// </summary>
-        public void Climb()
+        public void Climb(Rigidbody2D rigidbody)
         {
+            if (rigidbody == null)
+            {
+                throw new NullReferenceException();
+            }
             // TODO
         }
 
         /// <summary>
         /// Allows the character to turn.
         /// </summary>
-        protected void flip()
+        protected void flip(Rigidbody2D rigidbody)
         {
             if (rigidbody == null)
             {

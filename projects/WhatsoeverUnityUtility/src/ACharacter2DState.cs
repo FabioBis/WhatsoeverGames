@@ -25,33 +25,65 @@ namespace WhatsoeverUnityUtility
         private Rigidbody2D rigidbody;
 
         /// <summary>
-        /// TODO
+        /// Allows the character to move horizontally.
         /// </summary>
-        /// <param name="horizontal"></param>
+        /// <param name="horizontal">
+        /// The amount of movement for the current frame.
+        /// </param>
         public void Move(float horizontal)
         {
-            // TODO
+            if (rigidbody == null)
+            {
+                throw new NullReferenceException();
+            }
+            if (horizontal * rigidbody.velocity.x < maxSpeed)
+            {
+                // The character is changing direction (horizontal has a
+                // different sign to velocity.x) or hasn't reached maxSpeed.
+                // Add a force to the player.
+                rigidbody.AddForce(Vector2.right * horizontal * moveForce);
+            }
+            if (Mathf.Abs(rigidbody.velocity.x) > maxSpeed)
+            {
+                // The player's velocity is greater than the maxSpeed.
+                rigidbody.velocity =
+                    new Vector2(
+                        Mathf.Sign(rigidbody.velocity.x) * maxSpeed,
+                        rigidbody.velocity.y
+                        );
+            }
+            if ((horizontal > 0 && !facingRight) ||
+                (horizontal < 0 && facingRight))
+            {
+                // The character changed direction.
+                flip();
+            }
         }
 
         /// <summary>
-        /// TODO
+        /// Allows the character to jump.
         /// </summary>
         public void Jump()
         {
-            // TODO
+            if (rigidbody == null)
+            {
+                throw new NullReferenceException();
+            }
+            // Add a vertical force to the player.
+            rigidbody.AddForce(new Vector2(0f, jumpForce));
         }
 
         /// <summary>
-        /// 
+        /// Allows the character to fire with a given weapon.
         /// </summary>
-        /// <param name="weapon"></param>
+        /// <param name="weapon">The weapon to be used.</param>
         public void Fire(IWeapon weapon)
         {
             // TODO
         }
 
         /// <summary>
-        /// TODO
+        /// Allows the character to duck.
         /// </summary>
         public void Duck()
         { 
@@ -59,7 +91,7 @@ namespace WhatsoeverUnityUtility
         }
 
         /// <summary>
-        /// TODO
+        /// Allows the character to climb walls, ladders and so on.
         /// </summary>
         public void Climb()
         {
@@ -67,11 +99,23 @@ namespace WhatsoeverUnityUtility
         }
 
         /// <summary>
-        /// TODO
+        /// Allows the character to turn.
         /// </summary>
         protected void flip()
-        { 
-            // TODO
+        {
+            if (rigidbody == null)
+            {
+                throw new NullReferenceException();
+            }
+            // Switch the way the player is labelled as facing.
+            facingRight = !facingRight;
+
+            Transform transform =
+                rigidbody.GetComponentInParent<Transform>();
+            // Multiply the player's x local scale by -1.
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
         }
     }
 }

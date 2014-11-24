@@ -1,0 +1,21 @@
+-- Use Cases list --
+
+-(UA-UC01): The player interact with main menu.
+-(UA-UC02): The player interact with the game engine.
+-(UA-UC03): Start a new game.
+-(UA-UC04): Load a game.
+-(UA-UC05): Show credits.
+-(UA-UC06): Player will handle character creation and selection
+-(UA-UC07): Manages options.
+-(UA-UC08): Resume game.
+-(UA-UC09): Exit from the game.
+-(UA-UC10): Quit the application.
+-(UA-UC11): Player controls character.
+-(UA-UC12): Player collects loot.
+-(UA-UC13): Pause the game.
+-(UA-UC14): Interacts with Game Over screen.
+-(UA-UC15): System handles levels and scene.
+-(UA-UC16): Characters use weapons and cast spells/skills.
+-(UA-UC17): System handles player and game status.
+-(UA-UC18): System handles NPCs.
+-(UA-UC19): System handles loot table

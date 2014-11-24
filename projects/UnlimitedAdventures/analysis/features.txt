@@ -1,0 +1,90 @@
+-- Features list --
+
+-(UA-F01): The game shall allow the player to control the main character in
+ a multi level side-scrolling platform rpg game.
+
+-(UA-F02): The game will be structured with 11 levels: 5 Large explorable areas, 5 boss fight areas, 1 main hub.
+
+-(UA-F03): Each settitng contain different types of monsters and randomly generated loot, plus chests and secret rooms
+
+-(UA-F04): The character will be able to equip different items to customize his character:2 rings, 1 necklace, 1 armor, 1 main weapon, 1 off hand weapon(shield or weapon)
+
+-(UA-F05): The character shall posses a hp/mp bar, which can be replenished by spells,skills and potions, the character will also have a status bar containing buffs and 
+debuffs
+
+-(UA-F06): The character shall loot items from dead monsters, collect chests in hidden rooms
+
+-(UA-F07): The player shall invoke the Main Menu, also while playing.
+
+-(UA-F08): The player shall pause the game.
+
+-(UA-F09): The player shall save the game when exiting to the main menu, registering his character status and levels unlocked
+
+-(UA-F10): The player shall load a saved game.(the player will spawn in a hub and not in his last position).
+
+-(UA-F11): The first time a player complete a level, he will be able to teleport from the town to said level without passing through each level.
+
+-(UA-F12): The Game is Over if the character die and he has no more lifes.In which case the player will respawn at the beginning of the level or he may choose to return to town 
+
+-(UA-F13): The player shall start a new game only after exiting to the main menu, and will not overwrite the previous game
+
+-(UA-F14): The player can read Game credits.
+
+-(UA-F15): The player can exit the game.
+
+-(UA-F16): The player can quit the application.
+
+-(UA-F17): The player can resume the game.
+
+-(UA-F18): The player can manage Options.
+
+-(UA-F19): The player can delete his characters
+
+-(UA-F20): The player can choose which character to use.
+
+-(UA-F21): The game shall provide 3 types of enemies corresponding to 3 ui behaviours, fighter,mage, ranged.
+
+-(UA-F22): The game will generate through triggers monster and rare monster(which will have a chance of dropping rare quality items)
+
+-(UA-F22): The player will be able to craft special unique items using ingredients gathered by killing bosses.
+
+-(UA-F23): Every boss will have a chance of dropping unique components used in crafting along with rarer items.
+
+-(UA-F24): The game will adjust the level of monsters to the player level whenever the player enters a level
+
+-(UA-F25): The player will gain levels and distribute statisctic points, and will be able to put one point per level in a tree skill of his choice
+
+-(UA-F26): The player will choose freely how to spend tree skill points between 3 different trees:Combat,Exploration,Magic.
+
+-(UA-F27): The player will have access to 3 skill trees, each comprising of their own unique skills.
+
+-(UA-F28): The player will have an inventory which can be accessed anytime the player wants.
+
+-(UA-F29): The player will be able to interact with npcs inside the main town to buy/sell items.
+
+-(UA-F30): The player will be able to use the teleport stone in the town to select a playable level to teleport to.
+
+-- Levels list --
+
+-(UA-L01): Main Fantasy Town(hub).
+
+-(UA-L02): Country forest.
+
+-(UA-L03): Cave at the end of the forest(Greedy Ogre boss fight level).
+
+-(UA-L04): Subterranee cave.
+
+-(UA-L05): Underground Lake(Mad Kraken boss fight level).
+
+-(UA-L06): Corrupted Forest.
+
+-(UA-L07): Unholy church(Mad elf priest boss fight level.
+
+-(UA-L08): Graveyard.
+
+-(UA-L09): Mausoleum(Lich boss fight level).
+
+-(UA-L10): Demonic world.
+
+-(UA-L11): End of the demon's world(Demon's boss fight level.
+

@@ -17,10 +17,10 @@
 -(UA-UC16): Characters use weapons and cast spells/skills.
 -(UA-UC17): System handles player and game status.
 -(UA-UC18): System handles NPCs.
--(UA-UC19): System handles loot table
--(UA-UC20): System handles inventory/equip
--(UA-UC21): Player interact with game menu
--(UA-UC22): Player interact with crafting system
--(UA-UC23): Player interact with character sheet
--(UA-UC24): Player interact with inventory screen
--(UA-UC25): Player interact with NPC to shop
+-(UA-UC19): System handles loot table.
+-(UA-UC20): System handles inventory/equip.
+-(UA-UC21): Player interact with game menu.
+-(UA-UC22): Player interact with crafting system.
+-(UA-UC23): Player interact with character sheet.
+-(UA-UC24): Player interact with inventory screen.
+-(UA-UC25): Player interact with NPC to shop.

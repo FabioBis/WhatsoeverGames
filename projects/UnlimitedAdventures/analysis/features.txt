@@ -20,7 +20,7 @@ debuffs
 
 -(UA-F09): The player shall save the game when exiting to the main menu, registering his character status and levels unlocked
 
--(UA-F10): The player shall load a saved game.(the player will spawn in a hub and not in his last position).
+-(UA-F10): The player shall create a game istance wheter it's a new character or old character.(the player will spawn in a hub and not in his last position).
 
 -(UA-F11): The first time a player complete a level, he will be able to teleport from the town to said level without passing through each level.
 
@@ -34,35 +34,35 @@ debuffs
 
 -(UA-F16): The player can quit the application.
 
--(UA-F17): The player can resume the game.
+-(UA-F17): The player can manage Options.
 
--(UA-F18): The player can manage Options.
+-(UA-F18): The player can delete his characters
 
--(UA-F19): The player can delete his characters
+-(UA-F19): The player can choose which character to use.
 
--(UA-F20): The player can choose which character to use.
+-(UA-F20): The player can create new characters.
 
 -(UA-F21): The game shall provide 3 types of enemies corresponding to 3 ui behaviours, fighter,mage, ranged.
 
 -(UA-F22): The game will generate through triggers monster and rare monster(which will have a chance of dropping rare quality items)
 
--(UA-F22): The player will be able to craft special unique items using ingredients gathered by killing bosses.
+-(UA-F23): The player will be able to craft special unique items using ingredients gathered by killing bosses.
 
--(UA-F23): Every boss will have a chance of dropping unique components used in crafting along with rarer items.
+-(UA-F24): Every boss will have a chance of dropping unique components used in crafting along with rarer items.
 
--(UA-F24): The game will adjust the level of monsters to the player level whenever the player enters a level
+-(UA-F25): The game will adjust the level of monsters to the player level whenever the player enters a level
 
--(UA-F25): The player will gain levels and distribute statisctic points, and will be able to put one point per level in a tree skill of his choice
+-(UA-F26): The player will gain levels and distribute statistic points, and will be able to put one point per level in a tree skill of his choice
 
--(UA-F26): The player will choose freely how to spend tree skill points between 3 different trees:Combat,Exploration,Magic.
+-(UA-F27): The player will choose freely how to spend tree skill points between 3 different trees:Combat,Exploration,Magic.
 
--(UA-F27): The player will have access to 3 skill trees, each comprising of their own unique skills.
+-(UA-F28): The player will have access to 3 skill trees, each comprising of their own unique skills.
 
--(UA-F28): The player will have an inventory which can be accessed anytime the player wants.
+-(UA-F29): The player will have an inventory which can be accessed anytime the player wants.
 
--(UA-F29): The player will be able to interact with npcs inside the main town to buy/sell items.
+-(UA-F30): The player will be able to interact with npcs inside the main town to buy/sell items.
 
--(UA-F30): The player will be able to use the teleport stone in the town to select a playable level to teleport to.
+-(UA-F31): The player will be able to use the teleport stone in the town to select a playable level to teleport to.
 
 -- Levels list --
 

@@ -2,8 +2,7 @@
 
 -(UA-UC01): The player interact with main menu.
 -(UA-UC02): The player interact with the game engine.
--(UA-UC03): Start a new game.
--(UA-UC04): Load a game.
+-(UA-UC03): Create Game.
 -(UA-UC05): Show credits.
 -(UA-UC06): Player will handle character creation and selection
 -(UA-UC07): Manages options.
@@ -19,3 +18,9 @@
 -(UA-UC17): System handles player and game status.
 -(UA-UC18): System handles NPCs.
 -(UA-UC19): System handles loot table
+-(UA-UC20): System handles inventory/equip
+-(UA-UC21): Player interact with game menu
+-(UA-UC22): Player interact with crafting system
+-(UA-UC23): Player interact with character sheet
+-(UA-UC24): Player interact with inventory screen
+-(UA-UC25): Player interact with NPC to shop

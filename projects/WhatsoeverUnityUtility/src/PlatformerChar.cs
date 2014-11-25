@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Whatsoever2DUnityUtility
 {
@@ -26,6 +27,9 @@ namespace Whatsoever2DUnityUtility
         // The character control manager (Move, Jump, ...).
         private APlatformerControl controlManager;
 
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
         public PlatformerChar(
             APlatformerControl controlManager,
             APlatformerCharState charState,
@@ -43,8 +47,73 @@ namespace Whatsoever2DUnityUtility
             this.jumpForce = forceJump;
         }
 
-        // TODO
-        TODO;
+
+        /// <summary>
+        /// Set the current character state to <code>newState</code>.
+        /// </summary>
+        public void SetState(APlatformerCharState newState)
+        {
+            state = newState;
+        }
+
+        /// <summary>
+        /// Let the character move horizontally.
+        /// </summary>
+        /// <param name="horizontal">Horizontal space.</param>
+        /// <param name="rigidbody">Character Rigidbody2D.</param>
+        public void Move(float horizontal, Rigidbody2D rigidbody)
+        {
+            controlManager.Move(state, horizontal, rigidbody);
+        }
+
+        /// <summary>
+        /// Let the character jump.
+        /// </summary>
+        public void Jump(Rigidbody2D rigidbody)
+        {
+            controlManager.Jump(state, rigidbody);
+            state = new PlatformerJumpState(
+                state.GetFacingRight(),
+                maxSpeed,
+                moveForce,
+                jumpForce);
+        }
+
+        /// <summary>
+        /// Let the character use the given <code>weapon</code>.
+        /// </summary>
+        public void Fire(AWeapon weapon)
+        {
+            controlManager.Fire(state, weapon);
+        }
+
+        /// <summary>
+        /// Let the character duck.
+        /// </summary>
+        /// <param name="rigidbody"></param>
+        public void Duck(Rigidbody2D rigidbody)
+        {
+            controlManager.Duck(state, rigidbody);
+            state = new PlatformerDuckState(
+                state.GetFacingRight(),
+                maxSpeed,
+                moveForce,
+                jumpForce);
+        }
+
+        /// <summary>
+        /// Let the character climb.
+        /// </summary>
+        /// <param name="rigidbody"></param>
+        public void Climb(Rigidbody2D rigidbody)
+        {
+            controlManager.Climb(state, rigidbody);
+            state = new PlatformerClimbState(
+                state.GetFacingRight(),
+                maxSpeed,
+                moveForce,
+                jumpForce);
+        }
 
     }
 }

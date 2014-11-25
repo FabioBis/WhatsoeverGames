@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Whatsoever2DUnityUtility
 {
-    class AWeapon
+    public abstract class AWeapon
     {
+        
     }
 }

@@ -1,0 +1,106 @@
+F:\GitHub\WhatsoeverGames\projects\UnlimitedAdventures\analysis\features.txt
+
+###"levels"###
+#"large area"#
+	Town
+	Country forest
+	Subterranee cave
+	Corrupted Forest
+	Graveyard
+	Demonic world
+	
+#"small area"#
+	Cave
+	Underground Lake
+	Unholy church
+	Mausoleum
+	End
+
+###"monsters"###
+	melee:
+	ranged:
+	mage:
+
+#"rare monsters"#
+	melee:
+	ranged:
+	mage:
+
+#"boss monsters"#
+	melee:
+	ranged:
+	mage:
+
+###"items" and respective price###
+	rings:
+	necklace:
+	armor:
+	main weapon:
+	offhand weapons:
+	shields:
+	crafting materials:
+
+###"rare quality items" and respective price###
+	rings:
+	necklace:
+	armor:
+	main weapon:
+	offhand weapons:
+	shields:
+	crafting materials:
+
+###"boss quality items" and respective price###
+	rings:
+	necklace:
+	armor:
+	main weapon:
+	offhand weapons:
+	shields:
+	rare crafting materials:
+
+###Player###
+#"player stats"#
+	strenght: accuracy and damage melee 
+	dexterity: accuracy and damage ranged
+	vitality: HP
+	magica: MP and accuracy and damage magic
+	cunning: (haggle?, crafting?, save vs trap?)
+
+#"hp & mp bars#
+	HP:
+	MP:
+
+#"lifes"#
+
+#"spells"#
+
+#"skills"#
+
+#"potions"#
+
+#"buffs"#
+
+#"debuffs"#
+
+#"skilltree" (how many step?)#
+	combat:
+	exploration:
+	magic:
+
+#"inventory" #
+	(tile-sized or open?, 1 object for tile or some items occupy multiple tile?)
+
+#crafting#
+	rings:
+	necklace:
+	armor:
+	main weapon:
+	offhand weapons:
+	shields:
+###npg###
+	the hooded (crafter?)
+
+###secrets###
+	rooms
+	levels
+	

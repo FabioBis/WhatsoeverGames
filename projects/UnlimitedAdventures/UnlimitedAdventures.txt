@@ -2,29 +2,45 @@ Unlimited adventures
 
 Platform 2d/action rpg
 
-Creazione personaggio, personalmente adotterei il modello libero in cui implementiamo i "rami", tra cui il ramo del combattimento, della magia, dell'esplorazione.
-Il personaggio avra' le tipiche abilita' da incrementare come forza destrezza, vitalita',magia e astuzia, ognuna regolera' determinate abilita'.
+Creazione personaggio, personalmente adotterei il modello libero in cui 
+implementiamo i "rami", tra cui il ramo del combattimento, della magia, 
+dell'esplorazione.
+Il personaggio avra' le tipiche abilita' da incrementare come forza destrezza, 
+vitalita',magia e astuzia, ognuna regolera' determinate abilita'.
 
-Il punto di partenza e' il villaggio ridente cittadina in cui il giocatore potra' fare shopping.
+Il punto di partenza e' il villaggio ridente cittadina in cui il giocatore 
+potra' fare shopping.
 
 La struttura di livelli sara' cosi' implementata:
 
 
 
 Safezone1 ->dungeon1->safezone2->dungeon2->safezone3->dungeon3->via dicendo.
-Per quanto concerne la parte di mostri e itemizzazione lo spawn viene effettuato tramite trigger, ovvero il giocatore passando in certi punti attivera' la
-creazione di mostri tematici del posto in cui si trova casuali con possibilita' di far comparire mostri particolari che a differenza di quelli standard avranno una qualita' del
-loot maggiore.
+Per quanto concerne la parte di mostri e itemizzazione lo spawn viene effettuato 
+tramite trigger, ovvero il giocatore passando in certi punti attivera' la
+creazione di mostri tematici del posto in cui si trova casuali con possibilita' 
+di far comparire mostri particolari che a differenza di quelli standard hanno
+una qualita' del loot maggiore.
 
-Prima dell'accesso alla safezone successiva ci sara' lo scontro con il boss di fine dungeon il quale se sconfitto droppera' oggetti di qualita' piu' alta rispetto ai mob rari.
-Inoltre i boss lasceranno cadere materiali rari usati per craftare oggetti di massima qualita' tramite il tizio incappucciato presente nelle safezone.
-All'interno delle safezone vi sara' un personaggio incappucciato che una volta forniti gli ingredienti necessari craftera' un'oggetto di massima qualita' con caratteristiche
-randomiche, previa risoluzione di un indovinello, in caso di fallimento il giocatore perde la meta' dei materiali richiesti dal crafting.
+Prima dell'accesso alla safezone successiva ci sara' lo scontro con il boss di 
+fine dungeon il quale se sconfitto droppera' oggetti di qualita' piu' alta 
+rispetto ai mob rari.
+Inoltre i boss lasceranno cadere materiali rari usati per craftare oggetti di 
+massima qualita' tramite il tizio incappucciato presente nelle safezone.
+All'interno delle safezone vi sara' un personaggio incappucciato che una volta 
+forniti gli ingredienti necessari craftera' un'oggetto di massima qualita' con 
+caratteristiche randomiche, previa risoluzione di un indovinello, in caso di 
+fallimento il giocatore perde la meta' dei materiali richiesti dal crafting.
 
-I punti di spawn per i load game saranno legati alle safezone, stile checkpoint con possibilita' di rivisitare i dungeon gia' esplorati.
-Questo si realizzera' tramite l'implementazione di una piattaforma che permettera' al giocatore di scegliere il livello da giocare, tranne quelli non esplorati.
+I punti di spawn per i load game saranno legati alle safezone, stile checkpoint 
+con possibilita' di rivisitare i dungeon gia' esplorati.
+Questo si realizzera' tramite l'implementazione di una piattaforma che 
+permettera' al giocatore di scegliere il livello da giocare, tranne quelli non 
+esplorati.
 I livelli dei mostri si adatteranno al livello del giocatore.
 
-Non mancheranno segreti con tesori nascosti e amenita' simili per rendere il dungeon piu' interessante.
+Non mancheranno segreti con tesori nascosti e amenita' simili per rendere il 
+dungeon piu' interessante.
 
-Il gioco una volta ripulito l'ultimo dungeon va avanti all'infinito, dando quindi al giocatore la possibilita' di far crescere il personaggio come piu' lo aggrada.
+Il gioco una volta ripulito l'ultimo dungeon va avanti all'infinito, dando quindi 
+al giocatore la possibilita' di far crescere il personaggio come piu' lo aggrada.

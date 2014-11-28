@@ -13,6 +13,8 @@ namespace Whatsoever2DUnityUtility
     /// </summary>
     public class PlatformerChar
     {
+        // The rigidbody.
+        Rigidbody2D rigidbody;
         // The current character healt.
         private int healt;
         // The maximum speed the character can reach.
@@ -39,6 +41,7 @@ namespace Whatsoever2DUnityUtility
         public PlatformerChar(
             APlatformerControl controlManager,
             APlatformerCharState charState,
+            Rigidbody2D body,
             int h,
             float speedMax,
             float forceMove,
@@ -50,6 +53,7 @@ namespace Whatsoever2DUnityUtility
         {
             this.controlManager = controlManager;
             this.state = charState;
+            this.rigidbody;
             this.healt = h;
             this.maxSpeed = speedMax;
             this.moveForce = forceMove;
@@ -110,7 +114,92 @@ namespace Whatsoever2DUnityUtility
         {
             controlManager.Climb(state, this);
             state = PlatformerClimbingState.Instance();
+        } 
+
+        /// <summary>
+        /// Allows the character to turn.
+        /// </summary>
+        protected void flip()
+        {
+            // Switch the way the player is labelled as facing.
+            facingRight = !facingRight;
+
+            Transform transform =
+                rigidbody.GetComponentInParent<Transform>();
+            // Multiply the player's x local scale by -1.
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
         }
 
+        public Rigidbody2D GetRigidBody()
+        {
+            return rigidbody;
+        }
+
+        public int GetHealt()
+        {
+            return healt;
+        }
+
+        public void SetHealt(int h)
+        {
+            this.healt = h;
+        }
+
+        public float GetMaxSpeed()
+        {
+            return maxSpeed;
+        }
+
+        public void SetMaxSpeed(float speed)
+        {
+            this.maxSpeed = speed;
+        }
+
+        public float GetMoveForce()
+        {
+            return moveForce;
+        }
+
+        public void SetMoveForce(float force)
+        {
+            this.moveForce = force;
+        }
+
+        public float GetJumpForce()
+        {
+            return jumpForce;
+        }
+
+        public void SetJumpForce(float force)
+        {
+            this.jumpForce = force;
+        }
+
+        public bool GetFacingRight()
+        {
+            return facingRight;
+        }
+
+        public AWeapon GetPrimaryWeapon()
+        {
+            return this.primaryWeapon;
+        }
+
+        public void SetPrimaryWeapon(AWeapon wpn)
+        {
+            primaryWeapon = wpn;
+        }
+
+        public AWeapon GetSecondaryWeapon()
+        {
+            return this.secondaryWeapon;
+        }
+
+        public void SetSecondaryWeapon(AWeapon wpn)
+        {
+            secondaryWeapon = wpn;
+        }
     }
 }

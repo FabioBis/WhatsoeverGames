@@ -53,7 +53,7 @@ namespace Whatsoever2DUnityUtility
         {
             this.controlManager = controlManager;
             this.state = charState;
-            this.rigidbody;
+            this.rigidbody = body;
             this.healt = h;
             this.maxSpeed = speedMax;
             this.moveForce = forceMove;

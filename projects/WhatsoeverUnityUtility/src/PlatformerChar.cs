@@ -119,7 +119,7 @@ namespace Whatsoever2DUnityUtility
         /// <summary>
         /// Allows the character to turn.
         /// </summary>
-        protected void flip()
+        public void Flip()
         {
             // Switch the way the player is labelled as facing.
             facingRight = !facingRight;

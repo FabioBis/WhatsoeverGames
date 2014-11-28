@@ -87,7 +87,7 @@ namespace Whatsoever2DUnityUtility
         public void Jump()
         {
             controlManager.Jump(state, this);
-            state = PlatformerJumpingState.Instance();
+            state = PlatformerJumpingState.Instance;
         }
 
         /// <summary>
@@ -104,7 +104,7 @@ namespace Whatsoever2DUnityUtility
         public void Duck()
         {
             controlManager.Duck(state, this);
-            state = PlatformerDuckingState.Instance();
+            state = PlatformerDuckingState.Instance;
         }
 
         /// <summary>
@@ -113,7 +113,7 @@ namespace Whatsoever2DUnityUtility
         public void Climb()
         {
             controlManager.Climb(state, this);
-            state = PlatformerClimbingState.Instance();
+            state = PlatformerClimbingState.Instance;
         } 
 
         /// <summary>

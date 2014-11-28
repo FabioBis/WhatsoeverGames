@@ -14,23 +14,18 @@ namespace Whatsoever2DUnityUtility
     /// </summary>
     abstract public class APlatformerCharState
     {
-        // Is the character facing right?
-        private bool facingRight;
-        // The maximum speed the character can reach.
-        private float maxSpeed;
-        // The force applied to character while moving (acceleration).
-        private float moveForce;
-        // The force applied to character while jumping (deceleration).
-        private float jumpForce;
-
         /// <summary>
         /// Allows the character to move horizontally.
         /// </summary>
         /// <param name="hspace">
         /// The amount of movement for the current frame.
         /// </param>
-        public void Move(float hspace, Rigidbody2D rigidbody)
+        public void Move(float hspace, PlatformerChar character)
         {
+            Rigidbody2D rigidbody = character.GetRigidBody();
+            float maxSpeed = character.GetMaxSpeed();
+            float moveForce = character.GetMoveForce();
+            bool facingRight = character.GetFacingRight();
             if (rigidbody == null)
             {
                 throw new NullReferenceException();
@@ -55,19 +50,17 @@ namespace Whatsoever2DUnityUtility
                 (hspace < 0 && facingRight))
             {
                 // The character changed direction.
-                flip(rigidbody);
+                character.Flip();
             }
         }
 
         /// <summary>
         /// Allows the character to jump.
         /// </summary>
-        public void Jump(Rigidbody2D rigidbody)
+        public void Jump(PlatformerChar character)
         {
-            if (rigidbody == null)
-            {
-                throw new NullReferenceException();
-            }
+            Rigidbody2D rigidbody = character.GetRigidBody();
+            float jumpForce = character.GetJumpForce();
             // Add a vertical force to the player.
             rigidbody.AddForce(new Vector2(0f, jumpForce));
         }
@@ -76,7 +69,7 @@ namespace Whatsoever2DUnityUtility
         /// Allows the character to fire with a given weapon.
         /// </summary>
         /// <param name="weapon">The weapon to be used.</param>
-        public void Fire(AWeapon weapon)
+        public void Fire(AWeapon weapon, PlatformerChar character)
         {
             // TODO
         }
@@ -84,45 +77,17 @@ namespace Whatsoever2DUnityUtility
         /// <summary>
         /// Allows the character to duck.
         /// </summary>
-        public void Duck(Rigidbody2D rigidbody)
+        public void Duck(PlatformerChar character)
         {
-            if (rigidbody == null)
-            {
-                throw new NullReferenceException();
-            }
             // TODO
         }
 
         /// <summary>
         /// Allows the character to climb walls, ladders and so on.
         /// </summary>
-        public void Climb(Rigidbody2D rigidbody)
+        public void Climb(PlatformerChar character)
         {
-            if (rigidbody == null)
-            {
-                throw new NullReferenceException();
-            }
             // TODO
-        }
-
-        /// <summary>
-        /// Allows the character to turn.
-        /// </summary>
-        protected void flip(Rigidbody2D rigidbody)
-        {
-            if (rigidbody == null)
-            {
-                throw new NullReferenceException();
-            }
-            // Switch the way the player is labelled as facing.
-            facingRight = !facingRight;
-
-            Transform transform =
-                rigidbody.GetComponentInParent<Transform>();
-            // Multiply the player's x local scale by -1.
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
         }
     }
 }

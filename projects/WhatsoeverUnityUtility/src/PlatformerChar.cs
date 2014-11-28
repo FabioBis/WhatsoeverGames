@@ -21,6 +21,12 @@ namespace Whatsoever2DUnityUtility
         private float moveForce;
         // The force applied to character while jumping (deceleration).
         private float jumpForce;
+        // Is the character facing right?
+        private bool facingRight;
+        // Primary weapon.
+        private AWeapon primaryWeapon;
+        // Secondary Weapon.
+        private AWeapon secondaryWeapon;
 
         // The character current state (Standing, Jumping, ...).
         private APlatformerCharState state;
@@ -36,7 +42,10 @@ namespace Whatsoever2DUnityUtility
             int h,
             float speedMax,
             float forceMove,
-            float forceJump
+            float forceJump,
+            bool facingR,
+            AWeapon primary,
+            AWeapon secondary
             )
         {
             this.controlManager = controlManager;
@@ -45,6 +54,9 @@ namespace Whatsoever2DUnityUtility
             this.maxSpeed = speedMax;
             this.moveForce = forceMove;
             this.jumpForce = forceJump;
+            this.facingRight = facingR;
+            this.primaryWeapon = primary;
+            this.secondaryWeapon = secondary;
         }
 
 
@@ -60,23 +72,18 @@ namespace Whatsoever2DUnityUtility
         /// Let the character move horizontally.
         /// </summary>
         /// <param name="horizontal">Horizontal space.</param>
-        /// <param name="rigidbody">Character Rigidbody2D.</param>
-        public void Move(float horizontal, Rigidbody2D rigidbody)
+        public void Move(float horizontal)
         {
-            controlManager.Move(state, horizontal, rigidbody);
+            controlManager.Move(state, this, horizontal);
         }
 
         /// <summary>
         /// Let the character jump.
         /// </summary>
-        public void Jump(Rigidbody2D rigidbody)
+        public void Jump()
         {
-            controlManager.Jump(state, rigidbody);
-            state = new PlatformerJumpState(
-                state.GetFacingRight(),
-                maxSpeed,
-                moveForce,
-                jumpForce);
+            controlManager.Jump(state, this);
+            state = PlatformerJumpingState.Instance();
         }
 
         /// <summary>
@@ -90,29 +97,19 @@ namespace Whatsoever2DUnityUtility
         /// <summary>
         /// Let the character duck.
         /// </summary>
-        /// <param name="rigidbody"></param>
-        public void Duck(Rigidbody2D rigidbody)
+        public void Duck()
         {
-            controlManager.Duck(state, rigidbody);
-            state = new PlatformerDuckState(
-                state.GetFacingRight(),
-                maxSpeed,
-                moveForce,
-                jumpForce);
+            controlManager.Duck(state, this);
+            state = PlatformerDuckingState.Instance();
         }
 
         /// <summary>
         /// Let the character climb.
         /// </summary>
-        /// <param name="rigidbody"></param>
-        public void Climb(Rigidbody2D rigidbody)
+        public void Climb()
         {
-            controlManager.Climb(state, rigidbody);
-            state = new PlatformerClimbState(
-                state.GetFacingRight(),
-                maxSpeed,
-                moveForce,
-                jumpForce);
+            controlManager.Climb(state, this);
+            state = PlatformerClimbingState.Instance();
         }
 
     }

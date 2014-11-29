@@ -33,13 +33,13 @@ namespace Whatsoever2DUnityUtility
         // The character current state (Standing, Jumping, ...).
         private APlatformerCharState state;
         // The character control manager (Move, Jump, ...).
-        private APlatformerControl controlManager;
+        private IPlatformerControl controlManager;
 
         /// <summary>
         /// Default constructor.
         /// </summary>
         public PlatformerChar(
-            APlatformerControl controlManager,
+            IPlatformerControl controlManager,
             APlatformerCharState charState,
             Rigidbody2D body,
             int h,

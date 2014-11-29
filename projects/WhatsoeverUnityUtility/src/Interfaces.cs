@@ -19,7 +19,8 @@ namespace Whatsoever2DUnityUtility
 
         void Jump(APlatformerCharState state, PlatformerChar platformerChar);
 
-        void Fire(APlatformerCharState state, AWeapon weapon);
+        void Fire(APlatformerCharState state,
+            PlatformerChar platformerChar, AWeapon weapon);
 
         void Duck(APlatformerCharState state, PlatformerChar platformerChar);
 

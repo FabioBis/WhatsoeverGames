@@ -95,7 +95,7 @@ namespace Whatsoever2DUnityUtility
         /// </summary>
         public void Fire(AWeapon weapon)
         {
-            controlManager.Fire(state, weapon);
+            controlManager.Fire(state, this, weapon);
         }
 
         /// <summary>

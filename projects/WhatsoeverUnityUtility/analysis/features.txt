@@ -1,0 +1,13 @@
+
+--- Platformer Utility ---
+
+- Character control system (via State and Strategy patterns).
+- Collectables system.
+- Weapon system.
+- Enemies AIs.
+- Score system.
+
+
+--- RPG Utility ---
+
+- Inventory system.

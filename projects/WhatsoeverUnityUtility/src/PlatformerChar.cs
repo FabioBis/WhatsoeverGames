@@ -16,7 +16,7 @@ namespace Whatsoever2DUnityUtility
         // The rigidbody.
         Rigidbody2D rigidbody;
         // The current character healt.
-        private int healt;
+        private uint healt;
         // The maximum speed the character can reach.
         private float maxSpeed;
         // The force applied to character while moving (acceleration).
@@ -42,7 +42,7 @@ namespace Whatsoever2DUnityUtility
             IPlatformerControl controlManager,
             APlatformerCharState charState,
             Rigidbody2D body,
-            int h,
+            uint h,
             float speedMax,
             float forceMove,
             float forceJump,
@@ -137,12 +137,12 @@ namespace Whatsoever2DUnityUtility
             return rigidbody;
         }
 
-        public int GetHealt()
+        public uint GetHealt()
         {
             return healt;
         }
 
-        public void SetHealt(int h)
+        public void SetHealt(uint h)
         {
             this.healt = h;
         }

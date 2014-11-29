@@ -6,7 +6,7 @@ namespace Whatsoever2DUnityUtility
     /// This class implements the player control manager for a platformer
     /// game.
     /// </summary>
-    public class PlayerPlatformerCOntrol : IPlatformerControl
+    public class PlayerPlatformerControl : IPlatformerControl
     {
         /// <summary>
         /// Let the player move.

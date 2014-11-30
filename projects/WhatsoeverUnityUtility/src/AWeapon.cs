@@ -15,6 +15,8 @@ namespace Whatsoever2DUnityUtility
     {
         // The damage per hit of the weapon.
         private uint damage;
+        // Ranged weapons use ammunitions.
+        private ABullet bullet = null;
         // The powerups applied to a weapon, if any.
         private APowerUp powerup = null;
 
@@ -64,6 +66,25 @@ namespace Whatsoever2DUnityUtility
         protected APowerUp getPowerUp()
         {
             return this.powerup;
+        }
+
+        /// <summary>
+        /// Set a new bullet type to the weapon.
+        /// </summary>
+        /// <param name="pwup">
+        /// The new powerup.
+        /// </param>
+        protected void setBullet(ABullet bullet)
+        {
+            this.bullet = bullet;
+        }
+
+        /// <summary>
+        /// Getter method for the bullet.
+        /// </summary>
+        protected ABullet getBullet()
+        {
+            return this.bullet;
         }
 
         // TODO.

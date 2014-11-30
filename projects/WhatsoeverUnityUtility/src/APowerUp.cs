@@ -12,7 +12,7 @@ namespace Whatsoever2DUnityUtility
         // The damage modification (could be less than zero).
         abstract private int damageBoost;
         // The ammo left until the boost is consumed (-1 if infty ammo).
-        abstract private int ammo;
+        abstract private int charges;
 
         /// <summary>
         /// Protected constructor, instance this class directly is not allowed.
@@ -20,7 +20,7 @@ namespace Whatsoever2DUnityUtility
         protected APowerUp(int dmg, int ammo)
         {
             this.damageBoost = dmg;
-            this.ammo = ammo;
+            this.charges = ammo;
         }
 
         /// <summary>
@@ -28,20 +28,20 @@ namespace Whatsoever2DUnityUtility
         /// </summary>
         public void AmmoConsumed()
         {
-            if (ammo > 0)
+            if (charges > 0)
             {
                 // Ammo are not infty (-1) nor all consumed (0).
-                ammo--;
+                charges--;
             }
         }
 
         /// <summary>
         /// Returns true if the powerup is consumed.
         /// </summary>
-        public bool OutOfAmmo()
+        public bool OutOfCharges()
         {
             // The power up is consumed when ammo decrease to 0.
-            return ammo == 0;
+            return charges == 0;
         }
 
         /// <summary>

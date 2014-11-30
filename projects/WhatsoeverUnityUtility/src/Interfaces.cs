@@ -22,7 +22,6 @@ namespace Whatsoever2DUnityUtility
 
     public interface IPlatformerControl
     {
-
         public void Move(APlatformerCharState state,
             PlatformerChar platformerChar, float horizontal);
         void Jump(APlatformerCharState state, PlatformerChar platformerChar);

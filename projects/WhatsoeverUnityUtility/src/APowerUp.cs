@@ -7,7 +7,7 @@ namespace Whatsoever2DUnityUtility
     /// a specific powerup. This class can not be instantiated, but 
     /// subclassed.
     /// </summary>
-    public class APowerUp
+    public abstract class APowerUp
     {
         // The damage modification (could be less than zero).
         abstract private int damageBoost;
@@ -55,6 +55,11 @@ namespace Whatsoever2DUnityUtility
             if (dmg > 0)
             {
                 damage = (uint)dmg;                
+            }
+            else
+            {
+                // Do nothing, damage not changed.
+                ;
             }
         }
     }
